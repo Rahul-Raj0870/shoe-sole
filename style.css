@@ -188,6 +188,9 @@ footer>p{
     background-color:grey;
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 @media(min-width:900px){
@@ -290,7 +293,7 @@ span{
     
 }
 #women, #kids{
-    margin-top: -6%;
+    margin-top: -5%;
 }
 .row2{
     grid-template-columns: repeat(3,1fr);
