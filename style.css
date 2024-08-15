@@ -4,17 +4,15 @@
     box-sizing: border-box;
     
 }
-header{
-    position: static;
 
-}
 
 .navbar{
     background-color:black;
+  
    
 }
 .logoimg{
-    width: 70px;
+     width: 70px; 
 }
 #check{
     display: none;
@@ -24,7 +22,7 @@ header{
     display: flex;
     flex-direction: row;
     font-size: 35px;
-    padding-left: 380px;
+    padding-left: 360px;
     margin-top: -38px;
     color: white;
     align-items: center;
@@ -136,6 +134,7 @@ nav{
 }
 #kids{
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .row2{
@@ -145,17 +144,18 @@ nav{
     margin-top: 6%;
     padding-left:2rem;
     
+    
 
 }
 .span{
-display: block;
+    display: block;
 }
 .col2{
     padding-top: 1rem;
     color: white;
     font-family: "Montserrat", system-ui;
     font-weight: 400;
-   
+    cursor: pointer;
    
 }
 .col2>p{
